@@ -20,7 +20,9 @@
 // THE SOFTWARE.
 
 #import <Foundation/Foundation.h>
+#if !TARGET_OS_WATCH
 #import <SystemConfiguration/SystemConfiguration.h>
+#endif
 #import <Availability.h>
 
 #if __IPHONE_OS_VERSION_MIN_REQUIRED
